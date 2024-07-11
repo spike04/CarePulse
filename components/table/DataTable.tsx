@@ -35,6 +35,8 @@ export default function DataTable<TData, TValue>({
     getCoreRowModel: getCoreRowModel(),
   })
 
+  console.log(data)
+
   return (
     <>
       <div className="data-table">
